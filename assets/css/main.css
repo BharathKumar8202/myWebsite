@@ -3950,3 +3950,21 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+		.responsive-logo {
+			display: inline-block;
+			font-size: 1.5rem; /* Adjust font size for better scaling */
+			text-align: center;
+			word-wrap: break-word;
+		}
+		
+		@media screen and (max-width: 768px) {
+			.responsive-logo {
+				font-size: 1.2rem; /* Smaller font size for tablets */
+			}
+		}
+		
+		@media screen and (max-width: 480px) {
+			.responsive-logo {
+				font-size: 1rem; /* Even smaller font size for mobile devices */
+			}
+		}
