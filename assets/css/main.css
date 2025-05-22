@@ -3968,3 +3968,8 @@ input, select, textarea {
 				font-size: 1rem; /* Even smaller font size for mobile devices */
 			}
 		}
+		.full-height-image {
+			height: 100%; /* Make the image take the full height of the section */
+			width: auto; /* Maintain the aspect ratio */
+			object-fit: cover; /* Ensure the image covers the section */
+		}
